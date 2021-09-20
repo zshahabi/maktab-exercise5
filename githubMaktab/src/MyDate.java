@@ -51,7 +51,7 @@ public class MyDate {
         }
         return true;
     }
-
+//return last day of month
     public int getMonthLastDay(int month) {
         if (month >= 1 && month <= 6) {
             return 31;
